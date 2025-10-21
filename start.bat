@@ -1,0 +1,9 @@
+@echo off
+title CSV Employee Analyzer
+echo Starting CSV Employee Analyzer...
+echo.
+echo Backend starting on port 5000...
+start /B node simple-server.js
+timeout /t 2 >nul
+echo Frontend starting on port 3000...
+npm start

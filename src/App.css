@@ -1,0 +1,55 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+input[type="file"] {
+  width: 100%;
+  max-width: 400px;
+}
+
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
